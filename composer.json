@@ -1,0 +1,22 @@
+{
+  "name": "simirimia/DigiKam-google-drive",
+  "description": "DigiKam to Google Drive Sync",
+  "minimum-stability": "stable",
+  "license": "gpl",
+  "authors": [
+    {
+      "name": "Simirimia",
+      "email": "simirimia@triosolutions.at"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Simirimia\\DigiKam\\" : "Simirimia/DigiKam/src",
+      "Simirimia\\GoogleDrive\\" : "Simirimia/GoogleDrive/src"
+    }
+  },
+  "require": {
+    "simirimia/core": "dev-master",
+    "simirimia/google-drive": "dev-master"
+  }
+}

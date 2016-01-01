@@ -1,0 +1,6 @@
+composer.lock
+.idea
+vendor
+config/*.json
+testdata
+*~
